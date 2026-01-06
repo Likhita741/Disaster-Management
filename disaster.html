@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Disaster Response Hub</title>
+  <link rel="stylesheet" href="disaster.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🚨 Disaster Response Hub</h1>
+    <form id="report-form">
+      <input type="text" id="name" placeholder="Your name" required />
+      <input type="text" id="location" placeholder="Your location (e.g., Guntur)" required />
+      <textarea id="needs" placeholder="What do you need? (e.g., food, shelter)" rows="3" required></textarea>
+      <button type="submit">Report</button>
+    </form>
+    <div id="reports"></div>
+  </div>
+  <script src="disaster.js"></script>
+</body>
+</html>
